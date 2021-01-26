@@ -1,0 +1,195 @@
+#loginform label
+{
+	padding-right: 10px;
+}
+
+.submit_login
+{
+	width: auto;
+	margin-left: 10px;
+}
+
+#email
+{
+	width: 50%;
+}
+
+.page-header-title
+{
+	margin-top: 0 !important;
+	margin-bottom: 2rem !important;
+}
+
+#textfield_1 label
+{
+	margin-right: 10px;
+}
+
+#input_textfield_1
+{
+	background-color: transparent;
+	border: 0px solid;
+	width: 50%;
+}
+
+.checkboxfield
+{
+	margin-bottom: 15px;
+}
+
+.checkboxfield img
+{
+	margin-right: 10px;
+}
+
+.checkboxfield label
+{
+	margin-left: 10px;
+}
+
+.subscription
+{
+	margin-bottom: 15px;
+}
+
+.subscription img
+{
+	margin-right: 10px;
+}
+
+.subscription label
+{
+	margin-left: 10px;
+}
+
+.description
+{
+	color: #666666;
+}
+
+.description_small
+{
+	color: #666666;
+	font-size: .9375rem;
+}
+
+.submit
+{
+	margin-top: 48px;
+}
+
+.submit_button, .reset_button
+{
+	margin-right: 10px;
+	width: auto !important;
+}
+
+.inxform img
+{
+	/* max-width: 100%; */
+}
+
+@media screen and (max-width: 1080px)
+{
+	.inxform img
+	{
+		max-width: 23% !important;
+	}
+}
+
+.inxform hr
+{
+	margin-top: 3rem;
+}
+
+.inxform h4
+{
+	margin-top: 3rem;
+	margin-bottom: 1.5rem;
+	color: #73be1e;
+}
+
+.message_info
+{
+	margin-top: 15px;
+	color: #cd1719;
+}
+
+@media screen and (min-width: 992px)
+{
+	.nav-search-wrap .top-nav-search-btn
+	{
+		top: 10px;
+	}
+}
+
+/* slider */
+
+.switch
+{
+	display: inline-block;
+	height: 34px;
+	position: relative;
+	width: 60px;
+	margin-bottom: 0 !important;
+}
+
+.switch input
+{
+	display:none;
+}
+
+.slider
+{
+	background-color: #ccc;
+	bottom: 0;
+	cursor: pointer;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transition: .4s;
+}
+
+.slider:before
+{
+	background-color: #fff;
+	bottom: 4px;
+	content: "";
+	height: 26px;
+	left: 4px;
+	position: absolute;
+	transition: .4s;
+	width: 26px;
+}
+
+input + .slider
+{
+	background-color: #cd1719;
+}
+
+input:checked + .slider
+{
+	background-color: #73be1e;
+}
+
+input:checked + .slider:before
+{
+	transform: translateX(26px);
+}
+
+.slider.round
+{
+	border-radius: 34px;
+}
+
+.slider.round:before
+{
+	border-radius: 50%;
+}
+
+.warning
+{
+	margin-bottom: 15px;
+	color: #cd1719;
+}
