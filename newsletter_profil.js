@@ -76,19 +76,20 @@ jQuery(document).ready(function($)
 	// replace the sprite.symbol.svg urls
 
 	// search button
-	$('svg:eq(0)').replaceWith('<svg viewBox="0 0 32 32" class="icon"><use xlink:href="#search"></use></svg>');
+	$('svg:eq(3)').replaceWith('<svg viewBox="0 0 32 32" class="icon"><use xlink:href="#search"></use></svg>');
 
 	// social footer
-	$('svg:eq(1)').replaceWith('<svg viewBox="0 0 32 32" class="icon"><use xlink:href="#facebook"></use></svg>');
-	$('svg:eq(2)').replaceWith('<svg viewBox="0 0 32 32" class="icon"><use xlink:href="#twitter"></use></svg>');
-	$('svg:eq(3)').replaceWith('<svg viewBox="0 0 32 32" class="icon"><use xlink:href="#youtube"></use></svg>');
-	$('svg:eq(4)').replaceWith('<svg viewBox="0 0 32 32" class="icon"><use xlink:href="#instagram"></use></svg>');
+	$('svg:eq(4)').replaceWith('<svg viewBox="0 0 32 32" class="icon"><use xlink:href="#facebook"></use></svg>');
+	$('svg:eq(5)').replaceWith('<svg viewBox="0 0 32 32" class="icon"><use xlink:href="#twitter"></use></svg>');
+	$('svg:eq(6)').replaceWith('<svg viewBox="0 0 32 32" class="icon"><use xlink:href="#youtube"></use></svg>');
+	$('svg:eq(7)').replaceWith('<svg viewBox="0 0 32 32" class="icon"><use xlink:href="#instagram"></use></svg>');
 
 	// creative commons
-	$('svg:eq(5)').replaceWith('<svg viewBox="0 0 32 32" class="icon"><use xlink:href="#creative-commons"></use></svg>');
+	$('svg:eq(8)').replaceWith('<svg viewBox="0 0 32 32" class="icon"><use xlink:href="#creative-commons"></use></svg>');
 
 	// hide the language selection for this site
-	$('#navbar-dropdown li:eq(1)').hide();
+	$('#nav-languages li:eq(1)').hide();
+	$('#nav-languages li:eq(2)').hide();
 
 	// let's make a slider instead of the subscription checkbox
 	$('#label_subscription_14').empty();
