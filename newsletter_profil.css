@@ -193,3 +193,13 @@ input:checked + .slider:before
 	margin-bottom: 15px;
 	color: #cd1719;
 }
+
+.nav-languages-toggle:after
+{
+	-webkit-mask-image: url(chevron.svg);
+}
+
+.nav-languages .current-language a:after
+{
+	-webkit-mask-image: url(checkmark.svg);
+}
